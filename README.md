@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **GORIGA KARTHIK KUMAR**
 - GitHub: [@karthikkumar09](https://github.com/karthikkumar09)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/karthik-kumar-781bb32b4/)
+- LinkedIn: [karthikkumar](https://www.linkedin.com/in/karthik-kumar-781bb32b4/)
 - Email: gkklucky7@gmail.com
 
 ## 🙏 Acknowledgments
