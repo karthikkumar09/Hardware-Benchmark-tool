@@ -1,0 +1,9 @@
+{
+  "cpu": {
+    "score": 31.95,
+    "raw_value": 3263.32,
+    "metric": "events_per_second",
+    "variance": 0
+  },
+  "overall_score": 31.95
+}

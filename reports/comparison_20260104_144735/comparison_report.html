@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hardware Performance Comparison</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1400px; margin: 0 auto; background: white; padding: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 4px solid #4CAF50; padding-bottom: 15px; margin-bottom: 30px; }
+        h2 { color: #555; margin-top: 40px; border-left: 5px solid #4CAF50; padding-left: 15px; }
+        .summary { display: flex; justify-content: space-around; margin: 30px 0; }
+        .summary-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; min-width: 200px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .summary-card h3 { margin: 0; font-size: 16px; font-weight: normal; opacity: 0.9; }
+        .summary-card .value { font-size: 36px; font-weight: bold; margin: 10px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #4CAF50; color: white; font-weight: 600; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; }
+        tr:hover { background: #f5f5f5; }
+        .winner { background: #e8f5e9; font-weight: bold; }
+        .chart-container { margin: 40px 0; text-align: center; }
+        .chart-container img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .metric-badge { display: inline-block; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; margin: 5px; }
+        .badge-excellent { background: #4CAF50; color: white; }
+        .badge-good { background: #8BC34A; color: white; }
+        .badge-fair { background: #FFC107; color: white; }
+        .badge-poor { background: #FF5722; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🖥️ Hardware Performance Comparison Report</h1>
+        <p style="color: #666; font-size: 14px;"><strong>Generated:</strong> 2026-01-04 14:47:36</p>
+        
+        <div class="summary">
+            <div class="summary-card">
+                <h3>Systems Compared</h3>
+                <div class="value">3</div>
+            </div>
+            <div class="summary-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <h3>Best Overall</h3>
+                <div class="value" style="font-size: 20px;">Run-1-Latest</div>
+            </div>
+            <div class="summary-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <h3>Avg Variance</h3>
+                <div class="value">1.6%</div>
+            </div>
+        </div>
+        
+        <h2>📊 Performance Overview</h2>
+        <div class="chart-container">
+            <img src="comparison_charts.png" alt="Performance Comparison Charts">
+        </div>
+        
+        <h2>📈 Detailed Comparison Table</h2>
+        <table><thead><tr><th>System</th><th>Overall</th><th>CPU</th><th>Memory</th><th>Disk</th></tr></thead><tbody><tr><td><strong>Run-1-Latest</strong></td><td>35.0/100 <span class="metric-badge badge-fair">Below Avg</span></td><td>38.0/100 <span class="metric-badge badge-fair">Below Avg</span></td><td>57.4/100 <span class="metric-badge badge-good">Fair</span></td><td>17.1/100 <span class="metric-badge badge-poor">Poor</span></td></tr><tr><td><strong>Run-2-Quick</strong></td><td>34.8/100 <span class="metric-badge badge-fair">Below Avg</span></td><td>37.9/100 <span class="metric-badge badge-fair">Below Avg</span></td><td>56.1/100 <span class="metric-badge badge-good">Fair</span></td><td>17.4/100 <span class="metric-badge badge-poor">Poor</span></td></tr><tr><td><strong>Run-3-Full</strong></td><td>32.1/100 <span class="metric-badge badge-fair">Below Avg</span></td><td>32.2/100 <span class="metric-badge badge-fair">Below Avg</span></td><td>51.9/100 <span class="metric-badge badge-good">Fair</span></td><td>18.9/100 <span class="metric-badge badge-poor">Poor</span></td></tr></tbody></table>
+        
+        <h2>🏆 Performance Winners</h2>
+        <ul style='font-size: 18px; line-height: 2;'><li><strong>CPU:</strong> 🏆 Run-1-Latest (38.0/100)</li><li><strong>Memory:</strong> 🏆 Run-1-Latest (57.4/100)</li><li><strong>Disk:</strong> 🏆 Run-3-Full (18.9/100)</li></ul>
+    </div>
+</body>
+</html>
+        

@@ -1,0 +1,56 @@
+================================================================================
+CAPACITY PLANNING REPORT - DATABASE
+================================================================================
+
+WORKLOAD PROFILE
+--------------------------------------------------------------------------------
+CPU Weight: 30%
+Memory Weight: 35%
+Disk Weight: 30%
+Network Weight: 5%
+
+MINIMUM REQUIREMENTS
+--------------------------------------------------------------------------------
+CPU: 70/100
+MEMORY: 80/100
+DISK: 75/100
+NETWORK: 30/100
+
+SYSTEM RECOMMENDATIONS (Ranked)
+--------------------------------------------------------------------------------
+
+1. System-A
+   Workload Score: 36.64/100
+   Meets Requirements: ✗ NO
+   Cost: $1,000.00
+   Cost/Performance: $27.29 per point
+
+2. System-B
+   Workload Score: 36.21/100
+   Meets Requirements: ✗ NO
+   Cost: $1,500.00
+   Cost/Performance: $41.43 per point
+
+3. System-C
+   Workload Score: 33.49/100
+   Meets Requirements: ✗ NO
+   Cost: $2,000.00
+   Cost/Performance: $59.72 per point
+
+================================================================================
+RECOMMENDATION SUMMARY
+================================================================================
+
+🏆 Best Performance: System-A
+   Score: 36.64/100
+
+💰 Best Value: System-C
+   Score: 33.49/100
+   Cost/Performance: $0.02 per point
+
+⚠️  Systems NOT Meeting Requirements: 3
+   - System-A
+   - System-B
+   - System-C
+
+================================================================================

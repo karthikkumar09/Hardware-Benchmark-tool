@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Benchmark Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 3px solid #4CAF50; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; }
+        .score-box { background: #4CAF50; color: white; padding: 20px; border-radius: 5px; text-align: center; font-size: 24px; margin: 20px 0; }
+        .metric { background: #f9f9f9; padding: 15px; margin: 10px 0; border-left: 4px solid #4CAF50; }
+        .metric-title { font-weight: bold; color: #333; }
+        .metric-value { font-size: 18px; color: #4CAF50; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #4CAF50; color: white; }
+        .variance-good { color: green; }
+        .variance-bad { color: red; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hardware Benchmark Report</h1>
+        <p><strong>Generated:</strong> 2026-01-04 14:45:55</p>
+        
+        <div class="score-box">
+            Overall Performance Score: 35.04/100
+        </div>
+        
+        
+        <h2>CPU Performance</h2>
+        <div class="metric">
+            <div class="metric-title">Events per Second</div>
+            <div class="metric-value">3866.57</div>
+            <div>Variance: 2.21%</div>
+            <div>Normalized Score: 38.05/100</div>
+        </div>
+        
+        
+        <h2>Memory Performance</h2>
+        <div class="metric">
+            <div class="metric-title">Transfer Rate</div>
+            <div class="metric-value">29106.53 MiB/sec</div>
+            <div>Variance: 2.42%</div>
+            <div>Normalized Score: 57.36/100</div>
+        </div>
+        
+        <h2>Disk I/O Performance</h2><table><tr><th>Test Type</th><th>Value</th><th>Score</th></tr><tr><td>randread</td><td>5913.77 IOPS</td><td>5.82/100</td></tr><tr><td>randwrite</td><td>46244.79 IOPS</td><td>46.19/100</td></tr><tr><td>read</td><td>580456.67 KB/s</td><td>11.43/100</td></tr><tr><td>write</td><td>268144.67 KB/s</td><td>5.17/100</td></tr></table>
+        
+    </div>
+</body>
+</html>
+        

@@ -1,0 +1,30 @@
+{
+  "cpu": {
+    "score": 31.74,
+    "raw_value": 3242.0833333333335,
+    "metric": "events_per_second",
+    "variance": 5.5791394436985025
+  },
+  "memory": {
+    "score": 39.34,
+    "raw_value": 20274.676666666666,
+    "metric": "transfer_rate_mib_sec",
+    "variance": 2.9059692389802296
+  },
+  "disk": {
+    "randread": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "randwrite": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "read": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "write": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "average_score": 0
+  },
+  "overall_score": 21.74
+}

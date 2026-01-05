@@ -1,0 +1,299 @@
+{
+  "cpu": {
+    "runs": [
+      {
+        "events_per_second": 3176.94,
+        "total_events": 95320,
+        "latency_avg_ms": 1.26,
+        "latency_min_ms": 0.75,
+        "latency_max_ms": 12.96,
+        "latency_95p_ms": 1.93
+      },
+      {
+        "events_per_second": 3275.64,
+        "total_events": 98281,
+        "latency_avg_ms": 1.22,
+        "latency_min_ms": 0.75,
+        "latency_max_ms": 22.67,
+        "latency_95p_ms": 1.79
+      },
+      {
+        "events_per_second": 3408.92,
+        "total_events": 102279,
+        "latency_avg_ms": 1.17,
+        "latency_min_ms": 0.73,
+        "latency_max_ms": 12.92,
+        "latency_95p_ms": 1.7
+      }
+    ],
+    "statistics": {
+      "events_per_second": {
+        "mean": 3287.1666666666665,
+        "median": 3275.64,
+        "stdev": 116.41876194726234,
+        "min": 3176.94,
+        "max": 3408.92,
+        "variance_percent": 3.5416142152997723
+      },
+      "latency_avg_ms": {
+        "mean": 1.2166666666666666,
+        "median": 1.22,
+        "stdev": 0.045092497528228984,
+        "min": 1.17,
+        "max": 1.26,
+        "variance_percent": 3.706232673553068
+      },
+      "latency_95p_ms": {
+        "mean": 1.8066666666666666,
+        "median": 1.79,
+        "stdev": 0.11590225767142472,
+        "min": 1.7,
+        "max": 1.93,
+        "variance_percent": 6.415254114654505
+      }
+    }
+  },
+  "memory": {
+    "runs": [
+      {
+        "transfer_rate_mib_sec": 26249.75,
+        "total_operations": 10240,
+        "latency_avg_ms": 0.04
+      },
+      {
+        "transfer_rate_mib_sec": 26841.85,
+        "total_operations": 10240,
+        "latency_avg_ms": 0.04
+      },
+      {
+        "transfer_rate_mib_sec": 26249.22,
+        "total_operations": 10240,
+        "latency_avg_ms": 0.04
+      }
+    ],
+    "statistics": {
+      "transfer_rate_mib_sec": {
+        "mean": 26446.94,
+        "median": 26249.75,
+        "stdev": 342.0021948759967,
+        "min": 26249.22,
+        "max": 26841.85,
+        "variance_percent": 1.293163575355019
+      },
+      "latency_avg_ms": {
+        "mean": 0.04,
+        "median": 0.04,
+        "stdev": 0.0,
+        "min": 0.04,
+        "max": 0.04,
+        "variance_percent": 0.0
+      }
+    }
+  },
+  "disk": {
+    "randread": {
+      "runs": [
+        {
+          "test_type": "randread",
+          "iops": 4128.429052,
+          "bandwidth_kb": 16513,
+          "latency_mean_us": 239.900879304,
+          "latency_stddev_us": 127.556745832
+        },
+        {
+          "test_type": "randread",
+          "iops": 4650.578314,
+          "bandwidth_kb": 18602,
+          "latency_mean_us": 213.337280737,
+          "latency_stddev_us": 90.001550477
+        },
+        {
+          "test_type": "randread",
+          "iops": 5017.299423,
+          "bandwidth_kb": 20069,
+          "latency_mean_us": 197.74738825,
+          "latency_stddev_us": 83.44762587299999
+        }
+      ],
+      "statistics": {
+        "iops": {
+          "mean": 4598.768929666667,
+          "median": 4650.578314,
+          "stdev": 446.6942951719539,
+          "min": 4128.429052,
+          "max": 5017.299423,
+          "variance_percent": 9.713345071336988
+        },
+        "bandwidth_kb": {
+          "mean": 18394.666666666668,
+          "median": 18602,
+          "stdev": 1787.0434615121517,
+          "min": 16513,
+          "max": 20069,
+          "variance_percent": 9.715008670151592
+        },
+        "latency_mean_us": {
+          "mean": 216.99518276366666,
+          "median": 213.337280737,
+          "stdev": 21.31347900830443,
+          "min": 197.74738825,
+          "max": 239.900879304,
+          "variance_percent": 9.822097770491672
+        }
+      }
+    },
+    "randwrite": {
+      "runs": [
+        {
+          "test_type": "randwrite",
+          "iops": 61010.097307,
+          "bandwidth_kb": 244040,
+          "latency_mean_us": 6.461878661,
+          "latency_stddev_us": 1485.6725439059999
+        },
+        {
+          "test_type": "randwrite",
+          "iops": 56590.667982,
+          "bandwidth_kb": 226362,
+          "latency_mean_us": 6.882471894,
+          "latency_stddev_us": 1314.6127954790002
+        },
+        {
+          "test_type": "randwrite",
+          "iops": 57453.079419,
+          "bandwidth_kb": 229812,
+          "latency_mean_us": 9.050483422,
+          "latency_stddev_us": 2495.909595437
+        }
+      ],
+      "statistics": {
+        "iops": {
+          "mean": 58351.28156933333,
+          "median": 57453.079419,
+          "stdev": 2342.6297652029966,
+          "min": 56590.667982,
+          "max": 61010.097307,
+          "variance_percent": 4.01470148075406
+        },
+        "bandwidth_kb": {
+          "mean": 233404.66666666666,
+          "median": 229812,
+          "stdev": 9370.611577337593,
+          "min": 226362,
+          "max": 244040,
+          "variance_percent": 4.014749024157298
+        },
+        "latency_mean_us": {
+          "mean": 7.4649446589999995,
+          "median": 6.882471894,
+          "stdev": 1.3891272597005015,
+          "min": 6.461878661,
+          "max": 9.050483422,
+          "variance_percent": 18.608674587101206
+        }
+      }
+    },
+    "read": {
+      "runs": [
+        {
+          "test_type": "read",
+          "iops": 96862.804573,
+          "bandwidth_kb": 387451,
+          "latency_mean_us": 9.868176611,
+          "latency_stddev_us": 99.786048759
+        },
+        {
+          "test_type": "read",
+          "iops": 96919.30538,
+          "bandwidth_kb": 387677,
+          "latency_mean_us": 9.817164585,
+          "latency_stddev_us": 100.64538433
+        },
+        {
+          "test_type": "read",
+          "iops": 104103.096563,
+          "bandwidth_kb": 416412,
+          "latency_mean_us": 9.079424116,
+          "latency_stddev_us": 103.325902812
+        }
+      ],
+      "statistics": {
+        "iops": {
+          "mean": 99295.06883866667,
+          "median": 96919.30538,
+          "stdev": 4163.969984734084,
+          "min": 96862.804573,
+          "max": 104103.096563,
+          "variance_percent": 4.193531495002686
+        },
+        "bandwidth_kb": {
+          "mean": 397180,
+          "median": 387677,
+          "stdev": 16655.783890288683,
+          "min": 387451,
+          "max": 416412,
+          "variance_percent": 4.193510219620495
+        },
+        "latency_mean_us": {
+          "mean": 9.588255104,
+          "median": 9.817164585,
+          "stdev": 0.4413981054115984,
+          "min": 9.079424116,
+          "max": 9.868176611,
+          "variance_percent": 4.603529011524289
+        }
+      }
+    },
+    "write": {
+      "runs": [
+        {
+          "test_type": "write",
+          "iops": 72895.278333,
+          "bandwidth_kb": 291581,
+          "latency_mean_us": 13.216620078,
+          "latency_stddev_us": 2207.75476217
+        },
+        {
+          "test_type": "write",
+          "iops": 66157.057771,
+          "bandwidth_kb": 264628,
+          "latency_mean_us": 14.330740618,
+          "latency_stddev_us": 4878.688862874999
+        },
+        {
+          "test_type": "write",
+          "iops": 49889.607144,
+          "bandwidth_kb": 199558,
+          "latency_mean_us": 19.388789124,
+          "latency_stddev_us": 5232.142991181
+        }
+      ],
+      "statistics": {
+        "iops": {
+          "mean": 62980.64774933334,
+          "median": 66157.057771,
+          "stdev": 11827.189530205578,
+          "min": 49889.607144,
+          "max": 72895.278333,
+          "variance_percent": 18.779085247389776
+        },
+        "bandwidth_kb": {
+          "mean": 251922.33333333334,
+          "median": 264628,
+          "stdev": 47308.916774043064,
+          "min": 199558,
+          "max": 291581,
+          "variance_percent": 18.779167431513837
+        },
+        "latency_mean_us": {
+          "mean": 15.645383273333334,
+          "median": 14.330740618,
+          "stdev": 3.2893968545185515,
+          "min": 13.216620078,
+          "max": 19.388789124,
+          "variance_percent": 21.024712511358807
+        }
+      }
+    }
+  }
+}

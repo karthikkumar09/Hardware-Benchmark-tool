@@ -1,0 +1,40 @@
+{
+  "cpu": {
+    "runs": [
+      {
+        "events_per_second": 3263.32,
+        "total_events": 32643,
+        "latency_avg_ms": 1.22,
+        "latency_min_ms": 0.78,
+        "latency_max_ms": 13.06,
+        "latency_95p_ms": 1.73
+      }
+    ],
+    "statistics": {
+      "events_per_second": {
+        "mean": 3263.32,
+        "median": 3263.32,
+        "stdev": 0,
+        "min": 3263.32,
+        "max": 3263.32,
+        "variance_percent": 0
+      },
+      "latency_avg_ms": {
+        "mean": 1.22,
+        "median": 1.22,
+        "stdev": 0,
+        "min": 1.22,
+        "max": 1.22,
+        "variance_percent": 0
+      },
+      "latency_95p_ms": {
+        "mean": 1.73,
+        "median": 1.73,
+        "stdev": 0,
+        "min": 1.73,
+        "max": 1.73,
+        "variance_percent": 0
+      }
+    }
+  }
+}

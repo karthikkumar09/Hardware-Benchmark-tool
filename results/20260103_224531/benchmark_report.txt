@@ -1,0 +1,61 @@
+================================================================================
+HARDWARE BENCHMARK REPORT
+================================================================================
+Generated: 2026-01-03 23:00:46
+
+SYSTEM INFORMATION
+--------------------------------------------------------------------------------
+Platform: Linux
+Platform Release: 6.6.87.2-microsoft-standard-WSL2
+Platform Version: #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+Architecture: x86_64
+Processor: x86_64
+Python Version: 3.12.3
+
+OVERALL PERFORMANCE SCORE
+--------------------------------------------------------------------------------
+Score: 32.13/100
+Rating: Needs Improvement ⭐
+
+CPU BENCHMARK RESULTS
+--------------------------------------------------------------------------------
+Events per Second: 3287.17
+Standard Deviation: 116.42
+Variance: 3.54%
+Normalized Score: 32.19/100
+
+MEMORY BENCHMARK RESULTS
+--------------------------------------------------------------------------------
+Transfer Rate: 26446.94 MiB/sec
+Standard Deviation: 342.00
+Variance: 1.29%
+Normalized Score: 51.93/100
+
+DISK I/O BENCHMARK RESULTS
+--------------------------------------------------------------------------------
+
+RANDREAD:
+  IOPS: 4598.77
+  Variance: 9.71%
+  Normalized Score: 4.5/100
+
+RANDWRITE:
+  IOPS: 58351.28
+  Variance: 4.01%
+  Normalized Score: 58.31/100
+
+READ:
+  Bandwidth: 397180.00 KB/s
+  Variance: 4.19%
+  Normalized Score: 7.76/100
+
+WRITE:
+  Bandwidth: 251922.33 KB/s
+  Variance: 18.78%
+  Normalized Score: 4.85/100
+
+Average Disk Score: 18.86/100
+
+================================================================================
+End of Report
+================================================================================

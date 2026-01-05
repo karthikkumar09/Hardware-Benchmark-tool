@@ -1,0 +1,7 @@
+HARDWARE PERFORMANCE COMPARISON
+================================================================================
+
+      System  Overall Score  CPU Score  CPU Events/sec  CPU Variance %  Memory Score  Memory MiB/sec  Memory Variance %  Disk Score  Rand Read IOPS  Rand Write IOPS
+Run-1-Latest          35.04      38.05         3866.57            2.21         57.36        29106.53               2.42       17.15         5913.77         46244.79
+ Run-2-Quick          34.75      37.85         3847.02            0.00         56.08        28478.00               0.00       17.43         5718.08         46850.50
+  Run-3-Full          32.13      32.19         3287.17            3.54         51.93        26446.94               1.29       18.86         4598.77         58351.28

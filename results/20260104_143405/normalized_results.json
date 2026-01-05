@@ -1,0 +1,42 @@
+{
+  "cpu": {
+    "score": 37.85,
+    "raw_value": 3847.02,
+    "metric": "events_per_second",
+    "variance": 0
+  },
+  "memory": {
+    "score": 56.08,
+    "raw_value": 28478.0,
+    "metric": "transfer_rate_mib_sec",
+    "variance": 0
+  },
+  "disk": {
+    "randread": {
+      "score": 5.62,
+      "raw_value": 5718.076064,
+      "metric": "iops",
+      "variance": 0
+    },
+    "randwrite": {
+      "score": 46.8,
+      "raw_value": 46850.500417,
+      "metric": "iops",
+      "variance": 0
+    },
+    "read": {
+      "score": 12.27,
+      "raw_value": 622263,
+      "metric": "bandwidth_kb",
+      "variance": 0
+    },
+    "write": {
+      "score": 5.01,
+      "raw_value": 259882,
+      "metric": "bandwidth_kb",
+      "variance": 0
+    },
+    "average_score": 17.43
+  },
+  "overall_score": 34.75
+}

@@ -1,0 +1,107 @@
+{
+  "cpu": {
+    "runs": [
+      {
+        "events_per_second": 3236.16,
+        "total_events": 97092,
+        "latency_avg_ms": 1.24,
+        "latency_min_ms": 0.73,
+        "latency_max_ms": 13.64,
+        "latency_95p_ms": 1.86
+      },
+      {
+        "events_per_second": 3095.92,
+        "total_events": 92886,
+        "latency_avg_ms": 1.29,
+        "latency_min_ms": 0.74,
+        "latency_max_ms": 13.74,
+        "latency_95p_ms": 1.96
+      },
+      {
+        "events_per_second": 3394.27,
+        "total_events": 101839,
+        "latency_avg_ms": 1.18,
+        "latency_min_ms": 0.73,
+        "latency_max_ms": 13.77,
+        "latency_95p_ms": 1.7
+      }
+    ],
+    "statistics": {
+      "events_per_second": {
+        "mean": 3242.116666666667,
+        "median": 3236.16,
+        "stdev": 149.26416861837043,
+        "min": 3095.92,
+        "max": 3394.27,
+        "variance_percent": 4.603911085403171
+      },
+      "latency_avg_ms": {
+        "mean": 1.2366666666666666,
+        "median": 1.24,
+        "stdev": 0.05507570547286107,
+        "min": 1.18,
+        "max": 1.29,
+        "variance_percent": 4.453561089449683
+      },
+      "latency_95p_ms": {
+        "mean": 1.84,
+        "median": 1.86,
+        "stdev": 0.13114877048604004,
+        "min": 1.7,
+        "max": 1.96,
+        "variance_percent": 7.12765056989348
+      }
+    }
+  },
+  "memory": {
+    "runs": [
+      {
+        "transfer_rate_mib_sec": 26857.49,
+        "total_operations": 10240,
+        "latency_avg_ms": 0.04
+      },
+      {
+        "transfer_rate_mib_sec": 27239.91,
+        "total_operations": 10240,
+        "latency_avg_ms": 0.04
+      },
+      {
+        "transfer_rate_mib_sec": 26234.6,
+        "total_operations": 10240,
+        "latency_avg_ms": 0.04
+      }
+    ],
+    "statistics": {
+      "transfer_rate_mib_sec": {
+        "mean": 26777.333333333332,
+        "median": 26857.49,
+        "stdev": 507.4257260263163,
+        "min": 26234.6,
+        "max": 27239.91,
+        "variance_percent": 1.8949822960699956
+      },
+      "latency_avg_ms": {
+        "mean": 0.04,
+        "median": 0.04,
+        "stdev": 0.0,
+        "min": 0.04,
+        "max": 0.04,
+        "variance_percent": 0.0
+      }
+    }
+  },
+  "disk": {
+    "randread": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "randwrite": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "read": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    },
+    "write": {
+      "error": "Failed to parse fio output: Expecting value: line 1 column 1 (char 0)"
+    }
+  }
+}

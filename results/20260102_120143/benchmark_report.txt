@@ -1,0 +1,53 @@
+================================================================================
+HARDWARE BENCHMARK REPORT
+================================================================================
+Generated: 2026-01-02 12:03:14
+
+SYSTEM INFORMATION
+--------------------------------------------------------------------------------
+Platform: Linux
+Platform Release: 6.6.87.2-microsoft-standard-WSL2
+Platform Version: #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+Architecture: x86_64
+Processor: x86_64
+Python Version: 3.12.3
+
+OVERALL PERFORMANCE SCORE
+--------------------------------------------------------------------------------
+Score: 25.13/100
+Rating: Needs Improvement ⭐
+
+CPU BENCHMARK RESULTS
+--------------------------------------------------------------------------------
+Events per Second: 3332.35
+Standard Deviation: 4.21
+Variance: 0.13%
+Normalized Score: 32.65/100
+
+MEMORY BENCHMARK RESULTS
+--------------------------------------------------------------------------------
+Transfer Rate: 26265.00 MiB/sec
+Standard Deviation: 420.01
+Variance: 1.60%
+Normalized Score: 51.56/100
+
+DISK I/O BENCHMARK RESULTS
+--------------------------------------------------------------------------------
+
+RANDREAD:
+  Error: Failed to parse fio output: Expecting value: line 1 column 1 (char 0)
+
+RANDWRITE:
+  Error: Failed to parse fio output: Expecting value: line 1 column 1 (char 0)
+
+READ:
+  Error: Failed to parse fio output: Expecting value: line 1 column 1 (char 0)
+
+WRITE:
+  Error: Failed to parse fio output: Expecting value: line 1 column 1 (char 0)
+
+Average Disk Score: 0/100
+
+================================================================================
+End of Report
+================================================================================

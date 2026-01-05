@@ -1,0 +1,41 @@
+# Hardware Benchmark Configuration
+# Adjust these settings based on your testing requirements
+
+# Number of runs for each benchmark (for variance calculation)
+runs: 3
+
+# Output directory for results
+output_dir: results
+
+# CPU Benchmark Configuration
+cpu:
+  enabled: true
+  threads: 4              # Number of threads to use
+  duration: 30            # Test duration in seconds
+  max_prime: 20000        # Maximum prime number to calculate
+
+# Memory Benchmark Configuration
+memory:
+  enabled: true
+  block_size: 1M          # Memory block size (1K, 1M, 1G)
+  total_size: 10G         # Total memory to test
+  threads: 1              # Number of threads
+  operation: write        # Operation type: read, write, or none
+
+# Disk I/O Benchmark Configuration
+disk:
+  enabled: true
+  size: 1G                # Test file size
+  test_file: C:\Temp\benchmark_test  # Path to test file (Windows path)
+  runtime: 30             # Test duration in seconds
+  iodepth: 16             # I/O queue depth
+
+# Network Benchmark Configuration
+# NOTE: Requires iperf3 server running on target machine
+# To start server: iperf3 -s
+network:
+  enabled: false          # Set to true if you have iperf3 server
+  server_ip: 127.0.0.1    # IP address of iperf3 server
+  port: 5201              # iperf3 port
+  duration: 10            # Test duration in seconds
+  protocol: tcp           # tcp or udp
